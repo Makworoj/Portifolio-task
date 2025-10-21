@@ -1,0 +1,57 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  line-height: 1.6;
+  background: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470") 
+              no-repeat center center fixed;
+  background-size: cover;
+  color: black;
+
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  all
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;   /* dark background */
+  padding: 1rem 2rem;
+  font
+}
+
+/* Logo */
+.logo {
+  width: 90px;   /* adjust size */
+  height: auto;
+}
+
+/* Nav links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #ff9800; /* highlight on hover */
+}
